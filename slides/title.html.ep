@@ -1,0 +1,14 @@
+%= div '.center'  => begin
+
+  %= div '.center.jumbotron' => begin
+    %= h1 'Code Reuse in a'
+    %= h1 'Non-Blocking Application'
+  % end
+
+  %= h3 'Joel Berger'
+  %= h3 'MojoConf 2014'
+
+  %= vspace '50px'
+
+  %#= include 'sponsor'
+% end

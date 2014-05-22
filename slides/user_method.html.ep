@@ -1,0 +1,12 @@
+% title 'The "find_user" method';
+
+%= row begin
+  %= column 6 => begin
+    %= h2 'Blocking'
+    %= ppi 'bl_user.pm'
+  % end
+  %= column 6 => begin
+    %= h2 'Non-blocking'
+    %= ppi 'nb_user.pm'
+  % end
+% end

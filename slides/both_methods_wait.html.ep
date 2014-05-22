@@ -1,0 +1,20 @@
+% title 'Run correctly without an IOLoop';
+
+%= row begin
+  %= column 6 => begin
+    %= div ms_overlay => 1 => begin
+      %= ppi 'nb_user_error_handler.pm'
+    % end
+    %= div ms_overlay => 2 => begin
+      %= ppi 'nb_user_wait.pm'
+    % end
+  % end
+  %= column 6 => begin
+    %= div ms_overlay => 1 => begin
+      %= ppi 'nb_post_error_handler.pm'
+    % end
+    %= div ms_overlay => 2 => begin
+      %= ppi 'nb_post_wait.pm'
+    % end
+  % end
+% end

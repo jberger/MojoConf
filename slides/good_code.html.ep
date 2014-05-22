@@ -1,0 +1,7 @@
+% title q{So ... we are done, right?};
+
+%= div '.center' => begin
+  %= div ms_overlay => '2-' => begin
+    %= image 'good_code.png', width => '25%'
+  % end
+% end

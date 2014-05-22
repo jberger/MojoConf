@@ -1,0 +1,13 @@
+% title 'Forum - Blocking helpers';
+
+%= row begin
+
+  %= column 6 => begin
+    %= ppi 'register.pm'
+  % end
+
+  %= column 6 => begin
+    %= ppi 'blocking_helpers.pm'
+  % end
+
+% end

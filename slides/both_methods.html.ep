@@ -1,0 +1,20 @@
+% title 'Allow "find_user" to handle no-op';
+
+%= row begin
+  %= column 6 => begin
+    %= div ms_overlay => 1 => begin
+      %= ppi 'nb_user.pm'
+    % end
+    %= div ms_overlay => 2 => begin
+      %= ppi 'nb_user_string.pm'
+    % end
+  % end
+  %= column 6 => begin
+    %= div ms_overlay => 1 => begin
+      %= ppi 'nb_post_string.pm'
+    % end
+    %= div ms_overlay => 2 => begin
+      %= ppi 'nb_post_ensure_obj.pm'
+    % end
+  % end
+% end

@@ -1,0 +1,17 @@
+% title 'Testing!';
+
+%= row begin
+  %= column 6 => begin
+    %= ppi 'helpers.t'
+  % end
+
+  %= column 6 => begin
+    %= ul begin
+      %= li 'Point to a test database'
+      %= li 'Drop it'
+      %= li 'Inject some data'
+      %= li 'Run some command, close over arguments'
+      %= li 'Test using those arguments later'
+    % end
+  % end
+% end

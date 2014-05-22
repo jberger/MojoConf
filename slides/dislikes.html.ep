@@ -1,0 +1,7 @@
+% title 'Stuff We Dislike';
+
+%= row begin
+  %= column [6, 'offset-4'] => begin
+    %= h2 'Modular non-blocking code!!'
+  % end
+% end

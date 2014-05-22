@@ -1,0 +1,5 @@
+% title 'Forum - Model definition';
+
+%= ppi 'User.pm'
+%= ppi 'Post.pm'
+

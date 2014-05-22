@@ -1,0 +1,8 @@
+% title 'So ... does it work?';
+
+
+%= div '.center' => begin
+  %= div ms_overlay => '1-' => begin
+    %= image 'goto.png', width => '60%'
+  % end
+% end

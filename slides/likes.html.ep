@@ -1,0 +1,24 @@
+% title 'Stuff We Like';
+
+%= row begin
+
+  %= column [4, 'offset-2'] => begin
+    %= h2 'Modular code!'
+    %= ul begin
+      %= li 'Reuse'
+      %= li q{Don't repeat yourself (DRY)}
+      %= li 'Separation of concerns'
+      %= li 'Easier to test'
+    % end
+  % end
+
+  %= column [4, 'offset-1'] => begin
+    %= h2 'Non-blocking code!'
+    %= ul begin
+      %= li 'Lower memory consumption'
+      %= li 'Scalability'
+      %= li 'Cool'
+    % end
+  % end
+
+% end

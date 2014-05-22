@@ -1,0 +1,5 @@
+% title 'What about exceptions?!';
+
+%= div '.center' => begin
+  %= image 'failraptor.png' => width => '50%'
+% end

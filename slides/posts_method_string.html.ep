@@ -1,0 +1,17 @@
+% title 'Allow "find_user_posts" to take user string';
+
+%= row begin
+  %= column 6 => begin
+    %= h2 'Blocking'
+    %= ppi 'bl_post.pm'
+  % end
+  %= column 6 => begin
+    %= h2 'Non-blocking'
+    %= div ms_overlay => 1 => begin
+      %= ppi 'nb_post.pm'
+    % end
+    %= div ms_overlay => 2 => begin
+      %= ppi 'nb_post_string.pm'
+    % end
+  % end
+% end

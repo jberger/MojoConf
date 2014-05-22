@@ -1,0 +1,12 @@
+% title 'The "find_user_posts" method';
+
+%= row begin
+  %= column 6 => begin
+    %= h2 'Blocking'
+    %= ppi 'bl_post.pm'
+  % end
+  %= column 6 => begin
+    %= h2 'Non-blocking'
+    %= ppi 'nb_post.pm'
+  % end
+% end

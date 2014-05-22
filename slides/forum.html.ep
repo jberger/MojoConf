@@ -1,0 +1,27 @@
+% title 'Forum App';
+
+%= row begin
+
+  %= column [4, 'offset-1'] => begin
+    %= h2 'Imagine a forum software'
+    %= ul begin
+      %= li 'Mango (Mojo-based MongoDB driver)'
+      %= li 'Mandel (Mango-based ODM)'
+      %= li 'User object, has many "posts"'
+      %= li 'Post object, has one "author" (user)'
+    % end
+    %= div ms_overlay => '2-' => begin
+      %= h2 'Why?'
+      %= ul begin
+        %= li ms_overlay => '3-' => 'Forums promote discussion!'
+      % end 
+    % end
+  % end 
+
+  %= column [4, 'offset-2'] => begin
+    %= div ms_overlay => '3-' => begin
+      %= image 'duty_calls.png' => width => '80%'
+    % end
+  % end
+
+% end
