@@ -9,6 +9,9 @@
       %= li 'Mandel (Mango-based ODM)'
       %= li 'User object, has many "posts"'
       %= li 'Post object, has one "author" (user)'
+      %= li begin
+        <a href="https://github.com/jberger/MojoForum">https://github.com/jberger/MojoForum</a>
+      % end
     % end
     %= div ms_overlay => '2-' => begin
       %= h2 'Why?'
