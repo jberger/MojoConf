@@ -1,0 +1,32 @@
+% title 'Other topics for discussion';
+
+%= row begin
+  %= column [4, 'offset-1'] => begin
+    %= h2 'Topics'
+    %= ul begin
+      %= li begin
+        Object-oriented plugins
+        %= ul begin
+          <li><a href="https://metacpan.org/pod/Mojolicious::Plugin::Humane">Mojolicious::Plugin::Humane</a></li>
+          <li><a href="https://metacpan.org/pod/Mojolicious::Plugin::PPI">Mojolicious::Plugin::PPI</a></li>
+        % end
+      % end
+      %= li begin 
+        Run-forever long-polling api watchers 
+        %= ul begin
+          <li><a href="https://metacpan.org/pod/Mojo::FriendFeed">Mojo::FriendFeed</a></li>
+          <li><a href="https://metacpan.org/source/JBERGER/Mojo-FriendFeed-0.04/ex/cpan.pl">cpan_mojo script</a></li>
+        % end
+      % end
+    % end
+  % end
+
+  %= column [4, 'offset-2'] => begin
+    %= h2 'For more information:'
+    %= ul begin
+      %= li begin
+        <a href="http://mojolicious-introduction.herokuapp.com/">http://mojolicious-introduction.herokuapp.com/</a>
+      % end
+    % end
+  % end
+% end

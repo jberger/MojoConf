@@ -1,0 +1,21 @@
+% title 'About this talk';
+
+%= row begin
+  %= column [6, 'offset-3'] => begin
+    %= ul begin
+      %= li begin
+        Code available at: <a href="https://github.com/jberger/MojoConf">https://github.com/jberger/MojoConf</a>
+      % end
+      %= li 'Is a Mojolicious app'
+      %= li begin
+        Written using <a href="https://metacpan.org/pod/App::MojoSlides">App::MojoSlides</a>
+      % end
+      %= li begin 
+        Code highlighting via <a href="https://metacpan.org/pod/Mojolicious::Plugin::PPI">Mojolicious::Plugin::PPI</a>
+      % end
+      %= li begin
+        Assumes an understanding of <a href="http://mojolicio.us">Mojolicious apps</a> and <a href="http://mojolicio.us/perldoc/Mojo/IOLoop/Delay">Mojo::IOLoop::Delay</a>
+      % end
+    % end
+  % end
+% end

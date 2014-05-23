@@ -28,6 +28,7 @@ my $pres = {
 
 $pres->{slides} = [qw{
   title
+  about
   likes
   dislikes
   forum
@@ -44,6 +45,7 @@ $pres->{slides} = [qw{
   does_it_work
   testing
   helpers
+  other
   final
 }];
 
