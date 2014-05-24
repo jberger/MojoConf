@@ -27,6 +27,9 @@
       %= li begin
         <a href="http://mojolicious-introduction.herokuapp.com/">http://mojolicious-introduction.herokuapp.com/</a>
       % end
+      %= li begin
+        My blog series on non-blocking: <a href="http://blogs.perl.org/users/joel_berger/2013/10/writing-non-blocking-applications-with-mojolicious-part-1.html">part 1</a>
+      % end
     % end
   % end
 % end
