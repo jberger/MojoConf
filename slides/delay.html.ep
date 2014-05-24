@@ -1,0 +1,17 @@
+% title 'Mojo::IOLoop::Delay';
+
+%= row begin
+  %= column [6, 'offset-4'] => begin
+    %= ul begin
+      %= li begin 
+        Control non-blocking data flow
+        %= ul begin
+          %= li 'Sequential steps'
+          %= li 'Multiple non-blocking actions per step'
+        % end
+      % end
+      %= li 'Handle errors'
+      %= li 'Nestable'
+    % end
+  % end
+% end

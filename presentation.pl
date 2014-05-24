@@ -34,6 +34,7 @@ $pres->{slides} = [qw{
   forum
   model
   blocking_helpers
+  delay
   user_method
   posts_method
   posts_method_string
