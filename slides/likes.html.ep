@@ -22,3 +22,12 @@
   % end
 
 % end
+
+%= vspace '50px'
+
+%= row begin
+  %= column [6, 'offset-4'] => begin
+    %= ppi 'bl_good.pm'
+  % end
+% end
+

@@ -3,5 +3,9 @@
 %= row begin
   %= column [6, 'offset-4'] => begin
     %= h2 'Modular non-blocking code!!'
+    %= vspace '50px'
+    %= ppi 'nb_bad.pm'
   % end
 % end
+
+

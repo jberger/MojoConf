@@ -5,8 +5,12 @@
   %= column [4, 'offset-1'] => begin
     %= h2 'Imagine a forum software'
     %= ul begin
-      %= li 'Mango (Mojo-based MongoDB driver)'
-      %= li 'Mandel (Mango-based ODM)'
+      %= li begin
+        <a href="http://metacpan.org/pod/Mango">Mango</a> (Mojo-based MongoDB driver)
+      % end
+      %= li begin
+        <a href="http://metacpan.org/pod/Mandel">Mandel</a> (Mango-based ODM, batman++, jberger)
+      % end
       %= li 'User object, has many "posts"'
       %= li 'Post object, has one "author" (user)'
       %= li begin
