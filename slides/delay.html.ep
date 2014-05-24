@@ -2,6 +2,7 @@
 
 %= row begin
   %= column [6, 'offset-4'] => begin
+    Use <a href="http://mojolicio.us/perldoc/Mojo/IOLoop/Delay">Mojo::IOLoop::Delay</a>
     %= ul begin
       %= li begin 
         Control non-blocking data flow
